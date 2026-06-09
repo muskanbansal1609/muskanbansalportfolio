@@ -1,0 +1,131 @@
+/* ==========================================================================
+   1. Standard Layout Adjustments
+   ========================================================================== */
+
+.achievement-heading {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+
+.achievement-subtitle {
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 50px;
+}
+
+.card-image {
+  height: 250px;
+  width: 250px;
+}
+
+.card-title {
+  color: black;
+  font-size: 30px;
+  margin: 0px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-subtitle {
+  color: #868e96;
+  font-size: 20px;
+}
+
+/* ==========================================================================
+     2. Card Component Base and Interactive States
+     ========================================================================== */
+
+/* Target BOTH name variants to ensure full local control over the styling instance */
+.certificate-card,
+.cert-card {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px; /* Clean default shadow override */
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid rgba(211, 211, 211, 0.397);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.certificate-detail-div {
+  text-align: center;
+}
+
+/* Active Hover State: Only applies if the element does NOT have the no-hover utility */
+.certificate-card:not(.no-hover):hover,
+.cert-card:not(.no-hover):hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px !important;
+}
+
+/* ==========================================================================
+     3. The Absolute Reset Block (The Fix)
+     ========================================================================== */
+
+/* Force clean matching state for disabled items, suppressing rogue shadow definitions */
+.certificate-card.no-hover,
+.cert-card.no-hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px !important;
+  pointer-events: none !important;
+  cursor: default !important;
+}
+
+/* Fallback catch to guarantee hover frames remain perfectly flat */
+.certificate-card.no-hover:hover,
+.cert-card.no-hover:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px !important;
+  transform: none !important;
+}
+
+/* ==========================================================================
+     4. Footer Elements and Structural Layouts
+     ========================================================================== */
+
+.certificate-image-div {
+  text-align: center;
+}
+
+.achievement-cards-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem 1rem;
+}
+
+.certificate-card-footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.certificate-card-footer > p {
+  color: #333333;
+  cursor: pointer;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.certificate-card-footer > p:hover {
+  color: #868e96;
+}
+
+/* ==========================================================================
+     5. Media Query Blocks
+     ========================================================================== */
+
+@media (max-width: 1380px) {
+  .achievement-heading {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .achievement-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .achievement-subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+}

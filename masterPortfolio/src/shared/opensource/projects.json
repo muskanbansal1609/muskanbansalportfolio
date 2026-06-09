@@ -1,0 +1,66 @@
+{
+  "data": [
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "CineScout",
+      "createdAt": "2026-06-10T16:26:54Z",
+      "url": "https://github.com/muskanbansal1609/cinescout",
+      "description": "🔥 Designed for exploring and discovering movies and web shows in real time.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "SCSS",
+          "iconifyClass": "logos-sass"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG0_8uQ",
+      "name": "Bill Generator",
+      "createdAt": "2026-02-16T14:50:20Z",
+      "url": "https://github.com/muskanbansal1609/bill-generator",
+      "description": "🌀 Invoice creator for itemized items, prices, configure quantity, tax rates & discounts.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
+      "name": "Portfolio",
+      "createdAt": "2026-03-01T08:31:51Z",
+      "url": "https://github.com/muskanbansal1609/muskanbansalportfolio",
+      "description": "🚀 Central hub for my professional identity online to aggregates my career journey. ",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        }
+      ]
+    }
+  ]
+}
