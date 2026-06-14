@@ -23,7 +23,7 @@ const greeting = {
   subTitle:
     " Pixel perfect engineer. Passionate about building scalable products, clean UI systems, and impactful user experiences that blend performance with design.",
   resumeLink:
-    "https://drive.google.com/file/d/1NVLxHFAVVpdPAKsTakmz4sc4qVtYHY0A/view?usp=sharing",
+    "https://drive.google.com/file/d/1jhDr-NJ4udjpnBYCJtfJChFp9PIsaAWz/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/muskanbansal1609",
 };
