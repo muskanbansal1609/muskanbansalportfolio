@@ -2,6 +2,8 @@
 
 Welcome to the repository for my personal portfolio website! This project is a clean, beautiful, and fully responsive website built to showcase my skills, experiences, projects, and achievements.
 
+Live: https://muskan-bansal-portfolio.netlify.app/home
+
 ---
 
 ## 📝 About
